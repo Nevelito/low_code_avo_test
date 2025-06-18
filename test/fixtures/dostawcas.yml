@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nazwa: MyString
+  osoba_kontaktowa: MyString
+  telefon: MyString
+  email: MyString
+  adres: MyString
+  kategoria: MyString
+  ocena: MyString
+  start_kontraktu: 2025-06-18
+  koniec_kontraktu: 2025-06-18
+  produkty: MyText
+  zdjecie: MyString
+
+two:
+  nazwa: MyString
+  osoba_kontaktowa: MyString
+  telefon: MyString
+  email: MyString
+  adres: MyString
+  kategoria: MyString
+  ocena: MyString
+  start_kontraktu: 2025-06-18
+  koniec_kontraktu: 2025-06-18
+  produkty: MyText
+  zdjecie: MyString

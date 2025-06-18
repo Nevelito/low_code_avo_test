@@ -1,0 +1,2 @@
+class HarmonogramProdukcji < ApplicationRecord
+end

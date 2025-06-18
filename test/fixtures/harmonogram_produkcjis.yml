@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nazwa: MyString
+  data_rozpoczecia: 2025-06-18
+  data_zakonczenia: 2025-06-18
+  czas_trwania_etatu: 1
+  production_line: MyString
+  status: MyString
+  powiazane_zamowienia: MyText
+  produkty_z_magazynu: MyText
+  dostawca: MyString
+  notatki: MyText
+  klient: MyString
+  czas_trwania: MyString
+
+two:
+  nazwa: MyString
+  data_rozpoczecia: 2025-06-18
+  data_zakonczenia: 2025-06-18
+  czas_trwania_etatu: 1
+  production_line: MyString
+  status: MyString
+  powiazane_zamowienia: MyText
+  produkty_z_magazynu: MyText
+  dostawca: MyString
+  notatki: MyText
+  klient: MyString
+  czas_trwania: MyString

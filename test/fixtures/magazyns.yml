@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nazwa: MyString
+  opis: MyText
+  ilosc: 1
+  wartosc: 9.99
+  dostawca: one
+  kategoria: MyString
+  ostatnie_uzupelnienie: 2025-06-18
+  harmonogram_produkcji: one
+  zamowienie: one
+
+two:
+  nazwa: MyString
+  opis: MyText
+  ilosc: 1
+  wartosc: 9.99
+  dostawca: two
+  kategoria: MyString
+  ostatnie_uzupelnienie: 2025-06-18
+  harmonogram_produkcji: two
+  zamowienie: two

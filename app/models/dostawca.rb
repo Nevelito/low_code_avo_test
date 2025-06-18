@@ -1,0 +1,2 @@
+class Dostawca < ApplicationRecord
+end

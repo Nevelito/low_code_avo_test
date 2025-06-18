@@ -1,0 +1,57 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nazwa: MyString
+  nazwa_firmy: MyString
+  status: MyString
+  ulica: MyString
+  miasto: MyString
+  kod_pocztowy: MyString
+  telefon: MyString
+  fax: MyString
+  nip: MyString
+  region: MyString
+  kraj: MyString
+  strona_internetowa: MyString
+  email: MyString
+  konto: MyString
+  adres: MyString
+  typ_klienta: MyString
+  notatki: MyText
+  orders: MyText
+  harmonogram_zamowien: MyText
+  zamowienia: MyText
+  wydanie: MyText
+  wz: MyText
+  finanse: MyText
+  zalaczniki: MyText
+  zadania: MyText
+  zakres_zainteresowania: MyText
+
+two:
+  nazwa: MyString
+  nazwa_firmy: MyString
+  status: MyString
+  ulica: MyString
+  miasto: MyString
+  kod_pocztowy: MyString
+  telefon: MyString
+  fax: MyString
+  nip: MyString
+  region: MyString
+  kraj: MyString
+  strona_internetowa: MyString
+  email: MyString
+  konto: MyString
+  adres: MyString
+  typ_klienta: MyString
+  notatki: MyText
+  orders: MyText
+  harmonogram_zamowien: MyText
+  zamowienia: MyText
+  wydanie: MyText
+  wz: MyText
+  finanse: MyText
+  zalaczniki: MyText
+  zadania: MyText
+  zakres_zainteresowania: MyText
