@@ -1,4 +1,0 @@
-  [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO public /*application='LowCodeAvoTest'*/[0m
-  [1m[35m (180.4ms)[0m  [1m[35mCREATE DATABASE "low_code_avo_test_development" ENCODING = 'unicode' /*application='LowCodeAvoTest'*/[0m
-  [1m[35mSQL (0.2ms)[0m  [1m[35mSET search_path TO public /*application='LowCodeAvoTest'*/[0m
-  [1m[35m (102.5ms)[0m  [1m[35mCREATE DATABASE "low_code_avo_test_test" ENCODING = 'unicode' /*application='LowCodeAvoTest'*/[0m

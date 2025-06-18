@@ -1,0 +1,22 @@
+/node_modules/
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore log and temp files.
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Ignore uploaded files in development or test.
+/storage/*
+!/storage/.keep
+
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials/staging.key
+/config/credentials/production.key
+
+.env
