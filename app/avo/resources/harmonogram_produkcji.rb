@@ -4,7 +4,7 @@ class Avo::Resources::HarmonogramProdukcji < Avo::BaseResource
   # self.search = {
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
-  
+
   def fields
     field :id, as: :id
     field :nazwa, as: :text
