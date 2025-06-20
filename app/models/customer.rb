@@ -3,13 +3,13 @@ class Customer < ApplicationRecord
   has_many :production_plans
 
 
-  enum customer_type: {
+  enum :customer_type, {
     regular: 0,
     occasional: 1,
-    new: 2
+    new_customer: 2
   }
 
-  enum interest_scope: {
+  enum :interest_scope, {
     new_products: 0,
     used_sales: 1,
     used_purchases: 2,

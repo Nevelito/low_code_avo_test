@@ -1,6 +1,6 @@
 class Contact < ApplicationRecord
-  enum status: {
-    new: 0,
+  enum :status, {
+    new_contact: 0,
     cooperation: 1,
     ended: 2
   }

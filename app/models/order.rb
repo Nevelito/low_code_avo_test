@@ -3,8 +3,8 @@ class Order < ApplicationRecord
   belongs_to :production_plan
   has_many :inventory_items
 
-  enum status: {
-    new: 0,
+  enum :status, {
+    new_order: 0,
     accepted: 1,
     in_production: 2,
     manufactured: 3,

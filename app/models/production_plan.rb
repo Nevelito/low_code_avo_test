@@ -1,7 +1,7 @@
 class ProductionPlan < ApplicationRecord
   belongs_to :customer
 
-  enum status: {
+  enum :status, {
     planning: 0,
     material_preparation: 1,
     assembly: 2,
