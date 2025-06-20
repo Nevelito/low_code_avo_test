@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  quantity: 1
+  value: 9.99
+  category: MyString
+  last_restock: 2025-06-20
+  supplier: one
+  production_plan: one
+  order: one
+
+two:
+  name: MyString
+  description: MyText
+  quantity: 1
+  value: 9.99
+  category: MyString
+  last_restock: 2025-06-20
+  supplier: two
+  production_plan: two
+  order: two
