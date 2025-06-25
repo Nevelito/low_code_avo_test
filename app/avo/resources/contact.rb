@@ -5,6 +5,10 @@ class Avo::Resources::Contact < Avo::BaseResource
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
 
+  def filters
+    filter ::ContactStatusFilter
+  end
+
   def fields
     field :id, as: :id
     field :full_name, as: :text

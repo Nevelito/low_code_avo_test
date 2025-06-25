@@ -5,6 +5,10 @@ class Avo::Resources::InventoryItem < Avo::BaseResource
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
 
+  def filters
+    filter ::ItemCategoryFilter
+  end
+
   def fields
     field :id, as: :id
     field :name, as: :text

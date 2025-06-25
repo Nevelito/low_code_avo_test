@@ -3,6 +3,8 @@
 Avo.configure do |config|
   ## == Routing ==
   config.root_path = "/avo"
+
+  config.license = "pro"
   # used only when you have custom `map` configuration in your config.ru
   # config.prefix_path = "/internal"
 

@@ -13,3 +13,12 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 end
+
+if defined? ::Avo
+  Avo::Engine.routes.draw do
+    # This route is not protected, secure it with authentication if needed.
+    get "calendar", to: "tools#calendar", as: :calendar
+    get 'calendar/events', to: 'tools#calendar_events'
+    get "/avo/tools/calendar_events", to: "avo/tools#calendar_events"
+  end
+end

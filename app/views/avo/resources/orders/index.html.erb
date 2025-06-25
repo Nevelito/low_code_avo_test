@@ -1,0 +1,22 @@
+<%= render Avo::IndexComponent.new(view: view_context, resource: @resource, reflection: nil, parent_model: nil, parent_resource: nil, parent_record: nil, parent_relationship_name: nil, turbo_frame: nil) %>
+
+<%= avo_panel title: "Dodatkowa tabela – ostatnie logowania" do %>
+  <table class="w-full">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>User</th>
+      <th>Data logowania</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% LastLogin.limit(5).each do |login| %>
+      <tr>
+        <td><%= login.id %></td>
+        <td><%= login.user.email %></td>
+        <td><%= login.logged_at.strftime("%Y-%m-%d %H:%M") %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+<% end %>

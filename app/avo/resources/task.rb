@@ -4,6 +4,10 @@ class Avo::Resources::Task < Avo::BaseResource
   # self.search = {
   #   query: -> { query.ransack(id_eq: params[:q], m: "or").result(distinct: false) }
   # }
+  def filters
+    filter ::TaskStatusFilter
+    filter ::TaskContactTypeFilter
+  end
 
   def fields
     field :id, as: :id
