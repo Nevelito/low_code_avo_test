@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: one
+  production_plan: one
+  order_date: 2025-06-20
+  delivery_date: 2025-06-20
+  quantity: 1
+  product: MyString
+  total: 9.99
+  status: MyString
+  invoice: MyText
+
+two:
+  customer: two
+  production_plan: two
+  order_date: 2025-06-20
+  delivery_date: 2025-06-20
+  quantity: 1
+  product: MyString
+  total: 9.99
+  status: MyString
+  invoice: MyText

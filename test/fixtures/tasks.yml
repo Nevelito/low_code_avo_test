@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  notes: MyText
+  planned_contact_at: 2025-06-20 12:57:58
+  contact_type: 1
+  attachment: MyString
+  customer: one
+  status: 1
+
+two:
+  title: MyString
+  notes: MyText
+  planned_contact_at: 2025-06-20 12:57:58
+  contact_type: 1
+  attachment: MyString
+  customer: two
+  status: 1
