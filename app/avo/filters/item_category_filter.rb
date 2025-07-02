@@ -2,7 +2,7 @@ class ItemCategoryFilter < Avo::Filters::SelectFilter
   self.name = "Kategoria zasobu"
 
   def options
-    InventoryItem.categories.keys.map { |key| [key.humanize, key] }.to_h
+    InventoryItem.categories.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

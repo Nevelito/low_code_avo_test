@@ -2,7 +2,7 @@ class SupplierDeliveryFilter < Avo::Filters::SelectFilter
   self.name = "Rodzaj dostawy"
 
   def options
-    Supplier.delivery_categories.keys.map { |key| [key.humanize, key] }.to_h
+    Supplier.delivery_categories.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

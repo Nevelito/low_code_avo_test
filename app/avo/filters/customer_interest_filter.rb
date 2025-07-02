@@ -2,7 +2,7 @@ class CustomerInterestFilter < Avo::Filters::SelectFilter
   self.name = "Zainteresowanie"
 
   def options
-    Customer.interest_scopes.keys.map { |key| [key.humanize, key] }.to_h
+    Customer.interest_scopes.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

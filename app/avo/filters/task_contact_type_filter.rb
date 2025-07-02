@@ -2,7 +2,7 @@ class TaskContactTypeFilter < Avo::Filters::SelectFilter
   self.name = "Typ kontaktu"
 
   def options
-    Task.contact_types.keys.map { |key| [key.humanize, key] }.to_h
+    Task.contact_types.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

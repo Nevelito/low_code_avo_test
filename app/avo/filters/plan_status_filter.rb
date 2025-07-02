@@ -2,7 +2,7 @@ class PlanStatusFilter < Avo::Filters::SelectFilter
   self.name = "Status planu produkcji"
 
   def options
-    ProductionPlan.statuses.keys.map { |key| [key.humanize, key] }.to_h
+    ProductionPlan.statuses.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

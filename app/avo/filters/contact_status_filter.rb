@@ -2,7 +2,7 @@ class ContactStatusFilter < Avo::Filters::SelectFilter
   self.name = "Status kontaktu"
 
   def options
-    Contact.statuses.keys.map { |key| [key.humanize, key] }.to_h
+    Contact.statuses.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)

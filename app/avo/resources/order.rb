@@ -33,7 +33,7 @@ class Avo::Resources::Order < Avo::BaseResource
             value: status
           )
         end,
-        card: -> (order, context) {
+        card: ->(order, context) {
           <<~HTML
             <div style="padding: 8px;">
               <strong>##{order.id}</strong><br>

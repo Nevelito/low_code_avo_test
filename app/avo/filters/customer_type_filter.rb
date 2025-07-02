@@ -2,7 +2,7 @@ class CustomerTypeFilter < Avo::Filters::SelectFilter
   self.name = "Typ klienta"
 
   def options
-    Customer.customer_types.keys.map { |key| [key.humanize, key] }.to_h
+    Customer.customer_types.keys.map { |key| [ key.humanize, key ] }.to_h
   end
 
   def apply(_request, query, value)
