@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../javascript/controllers/application.js"],
+  "sourcesContent": ["import { Application } from \"@hotwired/stimulus\"\n\nconst application = Application.start()\n\n// Configure Stimulus development experience\napplication.debug = false\nwindow.Stimulus   = application\n\nexport { application }\n"],
+  "mappings": ";AAAA,SAAS,mBAAmB;AAE5B,IAAM,cAAc,YAAY,MAAM;AAGtC,YAAY,QAAQ;AACpB,OAAO,WAAa;",
+  "names": []
+}

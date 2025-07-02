@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../javascript/controllers/hello_controller.js"],
+  "sourcesContent": ["import { Controller } from \"@hotwired/stimulus\"\n\nexport default class extends Controller {\n  connect() {\n    this.element.textContent = \"Hello World!\"\n  }\n}\n"],
+  "mappings": ";AAAA,SAAS,kBAAkB;AAE3B,IAAO,2BAAP,cAA6B,WAAW;AAAA,EACtC,UAAU;AACR,SAAK,QAAQ,cAAc;AAAA,EAC7B;AACF;",
+  "names": []
+}

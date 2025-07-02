@@ -1,6 +1,3 @@
-// app/javascript/application.js
-import "@hotwired/turbo-rails";
-
 // app/javascript/controllers/application.js
 import { Application } from "@hotwired/stimulus";
 var application = Application.start();
@@ -17,4 +14,4 @@ var hello_controller_default = class extends Controller {
 
 // app/javascript/controllers/index.js
 application.register("hello", hello_controller_default);
-//# sourceMappingURL=/assets/application.js.map
+//# sourceMappingURL=/assets/controllers/index.js.map
